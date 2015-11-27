@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #ccc;
+}
+
+p, h1, h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 180%;
+}
+
+.nav{
+    position: fixed;
+    width: 100%;
+}
+
+.nav ul {
+    list-style: none;
+    background-color: #444;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.nav li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 1px solid #888;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: .3s background-color;
+}
+
+.nav a:hover {
+    background-color: #d0cd6e;
+}
+
+.nav a.active {
+    background-color: #fff;
+    color: #444;
+    cursor: default;
+}
+
+@media screen and (min-width: 600px) {
+    .nav li {
+        width: 120px;
+        border-bottom: none;
+        height: 50px;
+        line-height: 50px;
+        font-size: 1.4em;
+    }
+
+    /* Option 1 - Display Inline */
+    .nav li {
+        display: inline-block;
+        margin-right: -4px;
+    }
+}
+
+.homepage {
+    height: 100%;
+    text-align: center;
+    background: #d0cd6e;
+    padding-top: 8%;
+}
+
+.about{
+    height: 100%;
+    text-align: left;
+    background: white;
+    padding-top: 10px;
+}
+
+.schedule{
+    height: 100%;
+    text-align: left;
+    background: white;
+    padding-top: 10px;
+}
+
+.about p, h1, h2{
+    margin: 4%;
+}
+
+
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    margin-left: 0%;
+    margin-top: -8%;
+    background: rgba(0, 0, 0, 0.8),;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.left {
+    float: left;
+    width: 40%;
+    text-align: right;
+}
+
+.right {
+    margin-left: 40%;
+}

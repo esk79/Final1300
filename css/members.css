@@ -1,0 +1,41 @@
+
+#memSection {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#memSection h2 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 200%;
+}
+
+.imgRow {
+    display: block;
+}
+
+.soloWindow {
+    width: 100%;
+}
+
+.imgWindow {
+    display: inline-block;
+    width: 33%;
+    padding: 0;
+}
+
+.profPara {
+    display: block;
+    text-align: center;
+    padding-top: -5px;
+
+}
+
+.profImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+}
