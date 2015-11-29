@@ -1,0 +1,106 @@
+.contact form {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.contact form label {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 2px;
+    padding-top: 2px;
+
+}
+
+.contact form input {
+    display: block;
+    width: 87%;
+    margin-bottom: 10%;
+    padding: 7px;
+    outline: none;
+    border: solid 1px #c9c9c9;
+}
+
+.contact form textarea {
+    display: block;
+    width: 95%;
+    margin-bottom: 5%;
+    resize: none;
+    outline: none;
+    border: solid 1px #c9c9c9;
+    font-size: 18px;
+}
+
+.contact input[type="text"] {
+    display: block;
+    margin: 0;
+    width: 94%;
+    font-family: sans-serif;
+    font-size: 18px;
+    appearance: none;
+    box-shadow: none;
+
+}
+
+.contact ul{
+    list-style-type: none;
+
+}
+
+.force-width {
+    width: 110%;
+}
+
+#submit {
+    color: white;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #A32525;
+    margin-top: -2%;
+
+}
+
+
+.skills form{
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Ubuntu', sans-serif !important;
+    font-size: 30px;
+}
+
+.skills form label{
+    padding-left: 20px;
+}
+
+.skills #center{
+    width: 60%;
+    display: block;
+    width: 30%;
+    margin: 3% auto;
+    padding: 10px;
+    outline: none;
+    border: solid 5px #c9c9c9;
+    font-size: 24px;
+}
+
+.padding-top{
+    padding-top: 5%
+}
+
+.skills form input[type='checkbox'] {
+    -webkit-appearance:none;
+    width:25px;
+    height:25px;
+    background:white;
+    border-radius:5px;
+    border:2px solid #555;
+    margin-bottom: -1px;
+    margin-left: 3px;
+}
+.skills form input[type='checkbox']:checked {
+    background: #abd;
+}
+
+.margin-full{
+    margin: 3%;
+}

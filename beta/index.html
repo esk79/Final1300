@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>SimpleCalendar</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
+    <link rel="stylesheet" href="css/form.css" type="text/css"/>
+    <link rel="stylesheet" href="css/members.css" type="text/css"/>
+    <link rel="stylesheet" href="css/style-personal.css">
+
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script src="js/scroll.js"></script>
+
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,400,700">
+    <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=fontawesome">
+    <script src="js/simplecalendar.js" type="text/javascript"></script>
+
+
+</head>
+<body>
+<div>
+    <header class="nav">
+        <div class="clearfix">
+            <div>
+                <div id="nav-anchor">
+                    <ul>
+                        <li><a id="#home" href="#home-area">Home</a></li>
+                        <li><a id="#about" href="#about-area">About</a></li>
+                        <li><a id="#member" href="#member-area">Members</a></li>
+                        <li><a id="#schedule" href="#schedule-area">Schedule</a></li>
+                        <li><a id="#contact" href="#contact-area">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="content">
+        <section id="home-area">
+            <div class="section homepage">
+                <img class="img-responsive" src="img/background.jpg"
+                     alt="homepage">
+            </div>
+        </section>
+        <section id="about-area">
+            <div class="about">
+                <div class="left">
+
+                    <img class="padding-top" src="img/about2.jpg" width="90%" height="90%"
+                         alt="about">
+
+                </div>
+                <div class="right">
+
+                    <h1 class="main-header">About The SchoolGirl Project</h1>
+
+                    <h2 class="sub-header">What We Do:</h2>
+
+                    <p>The SchoolGirl Project hosts informative events on-campus,
+                        with the goal of promoting learning and discussion about issues
+                        surrounding women’s education and international development.
+                        These events are open to everyone, no previous knowledge required!
+                        These are not simple problems and we all can learn a great deal from
+                        the opinions and experiences of others.
+
+                        The SchoolGirl Project also fundraises for partner organizations doing
+                        relevant work abroad. Currently, we are partnering with the Afghan
+                        Institute of Learning, a Afghan non-profit which supports the education
+                        of those affected by war, particularly women and girls. Learn more about
+                        AIL <a href="http://www.afghaninstituteoflearning.org">here.</a></p>
+
+                    <h2 class="sub-header">How We Work:</h2>
+
+                    <p>The SchoolGirl Project is a team of students passionate about change, with
+                        a project-like dynamic. Our meeting include round table discussions,
+                        brainstorming sessions and active participation. The SchoolGirl Project is
+                        also ideal for those eager to build their leadership skills, and we support
+                        members who wish to develop their own project on and off-campus.</p>
+                </div>
+            </div>
+
+        </section>
+        <section id="member-area" class="member">
+            <div id="memSection">
+                <h1 class="main-header center-text"> Members of The School Girl Project </h1>
+
+                <div id="photoViewer">
+                    <div class="imgRow">
+                        <div class="soloWindow">
+                            <img class="profImg" src="img/reid.jpg" alt="Reid">
+
+                            <p class="profPara">Reid Williamson <br> President</p>
+                        </div>
+                    </div>
+                    <div class="imgRow">
+                        <div class="imgWindow">
+                            <img class="profImg" src="img/alex.jpg" alt="Alex">
+
+                            <p class="profPara">Alex Laviolette <br> Technology Officer</p>
+                        </div>
+                        <div class="imgWindow">
+                            <img class="profImg" src="img/gabby.jpg" alt="Gabby">
+
+                            <P class="profPara">Gabby Steinl <br> Outreach Coordinator</p>
+                        </div>
+                        <div class="imgWindow">
+                            <img class="profImg" src="img/henry.jpg" alt="Henry">
+
+                            <p class="profPara">Henry Ellis <br> Event Planner</p>
+                        </div>
+                    </div>
+                    <div class="imgRow">
+                        <div class="imgWindow">
+                            <img class="profImg" src="img/jack.jpg" alt="Jack">
+
+                            <p class="profPara">Jack Ruske</p>
+                        </div>
+                        <div class="imgWindow">
+                            <img class="profImg" src="img/julie.jpg" alt="Julie">
+
+                            <p class="profPara">Julie Gokhman</p>
+                        </div>
+                        <div class="imgWindow">
+                            <img class="profImg" src="img/manny.jpg" alt="Manny">
+
+                            <p class="profPara">Manny Sanchez</p>
+                        </div>
+                    </div>
+                    <div class="imgRow">
+                        <div class="imgWindow">
+                            <img class="profImg" src="img/oliver.jpg" alt="Oli">
+
+                            <p class="profPara">Oliver Greuterich</p>
+                        </div>
+                        <div class="imgWindow">
+                            <img class="profImg" src="img/rory.jpg" alt="Rory">
+
+                            <p class="profPara">Rory Henderson</p>
+                        </div>
+                        <div class="imgWindow">
+                            <img class="profImg" src="img/scott.jpg" alt="Scott">
+
+                            <p class="profPara">Scott Abrams</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="schedule-area" class="schedule">
+            <h1 class="page-header center-text main-header">Schedule</h1>
+
+            <div class="calendar hidden-print container">
+
+                <!--start of first column -->
+                <div class="column">
+
+                    <header>
+                        <h2 class="month"></h2>
+                        <a class="btn-prev fontawesome-angle-left" href="#"></a>
+                        <a class="btn-next fontawesome-angle-right" href="#"></a>
+                    </header>
+                    <table>
+                        <thead class="event-days">
+                        <tr></tr>
+                        </thead>
+                        <tbody class="event-calendar">
+                        <tr class="1"></tr>
+                        <tr class="2"></tr>
+                        <tr class="3"></tr>
+                        <tr class="4"></tr>
+                        <tr class="5"></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!--end of first column -->
+
+                <!--start of second column -->
+                <div class="column">
+                    <h2>Red Dots Symbolize Events:</h2>
+
+                    <h3>Click dot to see more</h3>
+
+                    <div class="list">
+                        <div class="day-event" date-day="2" date-month="11" date-year="2015"
+                             data-number="1">
+                            <a href="#" class="close fontawesome-remove"></a>
+
+                            <h2 class="title">Lorem ipsum 1</h2>
+
+                            <p class="date">2014-12-4</p>
+
+                            <p>Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem
+                                ipsum har
+                                varit standard ända sedan 1500-talet, när en okänd boksättare tog att antal
+                                bokstäver och blandade dem för att göra ett provexemplar av en bok.</p>
+                        </div>
+
+                        <div class="day-event" date-day="3" date-month="11" date-year="2015"
+                             data-number="1">
+                            <a href="#" class="close fontawesome-remove"></a>
+
+                            <h2 class="title">Lorem ipsum 1</h2>
+
+                            <p class="date">2014-12-4</p>
+
+                            <p>Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem
+                                ipsum har
+                                varit standard ända sedan 1500-talet, när en okänd boksättare tog att antal
+                                bokstäver och blandade dem för att göra ett provexemplar av en bok.</p>
+                        </div>
+
+                        <div class="day-event" date-day="23" date-month="11" date-year="2015"
+                             data-number="1">
+                            <a href="#" class="close fontawesome-remove"></a>
+
+                            <h2 class="title">Lorem ipsum 3</h2>
+
+                            <p class="date">2014-12-14</p>
+
+                            <p>Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem
+                                ipsum
+                                har varit standard ända sedan 1500-talet, när en okänd boksättare tog
+                                att antal
+                                bokstäver och blandade dem för att göra ett provexemplar av en bok.</p>
+
+                        </div>
+                        <div class="day-event" date-day="17" date-month="11" date-year="2015"
+                             data-number="1">
+                            <a href="#" class="close fontawesome-remove"></a>
+
+                            <h2 class="title">Lorem ipsum 4</h2>
+
+                            <p class="date">2014-12-16</p>
+
+                            <p>Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem
+                                ipsum
+                                har varit standard ända sedan 1500-talet, när en okänd boksättare tog
+                                att antal
+                                bokstäver och blandade dem för att göra ett provexemplar av en bok.</p>
+
+                        </div>
+                        <div class="day-event" date-day="27" date-month="11" date-year="2015"
+                             data-number="1">
+                            <a href="#" class="close fontawesome-remove"></a>
+
+                            <h2 class="title">Lorem ipsum 5</h2>
+
+                            <p class="date">2014-12-24</p>
+
+                            <p>Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem
+                                ipsum
+                                har varit standard ända sedan 1500-talet, när en okänd boksättare tog
+                                att antal
+                                bokstäver och blandade dem för att göra ett provexemplar av en bok.</p>
+
+                        </div>
+                        <div class="day-event" date-day="1" date-month="12" date-year="2015"
+                             data-number="2">
+                            <a href="#" class="close fontawesome-remove"></a>
+
+                            <h2 class="title">EducAID</h2>
+
+                            <p class="date">01-12-2015<br>5:00-6:00pm</p>
+
+                            <p>Join The SchoolGirl Project on World AIDS day for a discussion on women's
+                                education and health with Professor Assie-Lumumba of the Africana Studies and Research Center.
+                                Pizza will be served!</p>
+                            <p>The Tatkon Center<br>3058 Balch Hall, Ithaca, New York 14853</p>
+
+                        </div>
+                    </div>
+                    <!--end of second column -->
+
+                </div>
+            </div>
+
+
+            <!--<div class="col-md-6">-->
+            <!--<label class="print pull-right">-->
+            <!--<span class="print-btn hidden-print">Print your list!</span>-->
+            <!--</label>-->
+
+            <!--<h2>Personal list</h2>-->
+
+            <!--<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been-->
+            <!--the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley-->
+            <!--of type and scrambled it to make a type specimen book.</p>-->
+
+            <!--<div class="person-list"></div>-->
+            <!--</div>-->
+
+    </div>
+    </section>
+
+    <section id="contact-area" class="contact">
+        <?php include "/scripts/contact.php"; ?>
+        <h2 class="center-text main-header">Contact Us</h2>
+
+        <div class="contact">
+            <p class="center"><?php echo $result; ?></p>
+
+            <form action="?" method="post">
+                <ul class="input-list style-2 clearfix">
+                    <li>
+                        <label for="name"></label>
+                        <input type="text" name="name" id="name" placeholder="Name" class="focus"/>
+                    </li>
+                    <li>
+                        <label for="email"></label>
+                        <input type="text" name="email" placeholder="Email" id="email"/>
+                    </li>
+                    <li>
+                        <label for="subject"></label>
+                        <input type="text" name="subject" placeholder="Subject" id="subject"/>
+                    </li>
+                    <li>
+                        <label for="message"></label>
+                        <textarea name="message" id="message" cols="50" rows="9"></textarea>
+                    </li>
+                    <li class="force-width">
+                        <input type="submit" value="Send Email" id="submit">
+                    </li>
+                </ul>
+
+            </form>
+        </div>
+
+    </section>
+</div>
+</div>
+</div>
+
+<!--<div id="footer">-->
+<!--<h1>All original content copyright 2015 Trevor Frey, Evan King, Allison Pei</h1>-->
+<!--</div>-->
+</body>
+</html>
