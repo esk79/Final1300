@@ -9,6 +9,9 @@ p, h1, h2 {
     line-height: 180%;
     padding-top: 3px;
     padding-bottom: 3px;
+    padding-left: 3%;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .nav{
@@ -79,6 +82,13 @@ p, h1, h2 {
     padding-top: 10px;
 }
 
+.partners{
+    height: 100%;
+    text-align: left;
+    padding-top: 10px;
+}
+
+
 .schedule{
     /*I Dont like that I had to force this... Can we make this a percent?*/
     height: 100%;
@@ -98,9 +108,9 @@ p, h1, h2 {
     padding-bottom: 5px;
 }
 
-.about p, h1, h2{
-    margin: 2%;
-}
+/*.about p, h1, h2{*/
+    /*margin: 2%;*/
+/*}*/
 
 .padding-top{
     padding-top: 1%
@@ -123,12 +133,20 @@ p, h1, h2 {
 .left {
     padding-left: .5%;
     float: left;
-    width: 40%;
+    width: 30%;
+    text-align: right;
+}
+
+.left-2 {
+    padding-left: .5%;
+    float: left;
+    width: 30%;
     text-align: right;
 }
 
 .right {
-    margin-left: 40%;
+    margin-left: 30%;
+    padding-right: 2%;
 }
 
 .margin-top{
@@ -141,4 +159,8 @@ p, h1, h2 {
 
 .sub-header{
     font-size: 30px;
+}
+
+.padding-left{
+    padding-left: 3%;
 }
